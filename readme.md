@@ -5,6 +5,14 @@ This project is a simple demonstration of a stack based virtual machine in c++, 
 I also took this opportuninity to try out a different parsing technique aside from the *Old Trusty* **Recursive Descent** parser.
 Instead of that our parser here uses a **Climbing Presedence** parser to, generate our ast.
 
+
+### Execute
+
+```sh
+git clone https://github.com/NM711/ExpressionVM.git
+./ExpressionVM/build/main.out
+```
+
 ### Parser Algorithm Resources:
 
 1. https://eli.thegreenplace.net/2012/08/02/parsing-expressions-by-precedence-climbing
